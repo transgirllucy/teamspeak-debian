@@ -1,0 +1,23 @@
+name: Makefile CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: update repo
+      run: sudo apt update
+      
+    - name: install dependencies
+      run: sudo apt install menu make 
+
+    - name: build
+      run: make all
