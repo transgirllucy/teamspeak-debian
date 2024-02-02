@@ -1,4 +1,4 @@
-all: amd64_teamspeak3 amd64_temspeak5 i386_teamspeak3
+all: amd64_teamspeak3 amd64_teamspeak5 i386_teamspeak3
 
 amd64_teamspeak3:
 	dpkg-deb --build amd64/teamspeak3 teamspeak3-client_amd64.deb 
