@@ -1,0 +1,8 @@
+#!/bin/bash
+VERSION=5.0.0-beta77
+BALL="teamspeak-client.tar.gz"
+cd /tmp
+wget https://files.teamspeak-services.com/pre_releases/client/5.0.0-beta77/teamspeak-client.tar.gz
+mkdir /opt/teamspeak5-client
+tar xvf $BALL  -C /opt/teamspeak5-client
+rm -f $BALL

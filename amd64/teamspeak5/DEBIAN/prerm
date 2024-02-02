@@ -1,0 +1,5 @@
+#!/bin/bash
+DIR="teamspeak5-client"
+rm -f /usr/bin/teamspeak5-client
+update-menus
+rm -rf /opt/$DIR

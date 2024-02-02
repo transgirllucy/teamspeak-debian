@@ -1,0 +1,5 @@
+#!/bin/bash
+DIR="teamspeak5-client"
+# Add link in /usr/bin 
+ln -s /opt/$DIR/TeamSpeak /usr/bin/teamspeak5-client
+update-menus
