@@ -2,4 +2,5 @@
 DIR="TeamSpeak3-Client-linux_amd64"
 # Add link in /usr/bin 
 ln -s /opt/$DIR/ts3client_runscript.sh /usr/bin/teamspeak3-client
+chmod 0555 /opt/$DIR
 update-menus

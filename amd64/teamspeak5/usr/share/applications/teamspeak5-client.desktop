@@ -6,6 +6,6 @@ Exec=/usr/bin/teamspeak5-client
 Terminal=false
 #Icon=/opt/TeamSpeak3-Client-linux_amd64/pluginsdk/docs/client_html/images/logo.png
 Categories=Network
-Comment=Teamspeak 3 Client
-Comment[fr]=Client Teamspeak 3
+Comment=Teamspeak 5 Client
+Comment[fr]=Client Teamspeak 5
 
