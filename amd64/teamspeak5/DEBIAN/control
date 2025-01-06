@@ -1,7 +1,7 @@
 Package: teamspeak5-client
 Version: 5.0.0-beta77
 Architecture: amd64
-Maintainer: mrtuxa <email: mrtuxa@leipzig.freifunk.net matrix: @mrtuxa:sys2nix.de>
+Maintainer: transgirl_lucy <email: lucy@nix2twink.gay matrix: @lucy:nix2twink.gay>
 Installed-Size: 
 Depends: menu
 Section: non-free/net
